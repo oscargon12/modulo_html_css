@@ -1,0 +1,155 @@
+/* CSS Variables */
+:root{
+    --main-bg: #42a5f5;
+    --secondary-bg: #1565c0;
+    --card-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    --radius-3: 3px;
+    --family: 'Spartan', sans-serif;
+    --gray-600: #757575;
+}
+
+/* Normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles */
+body {
+  font-family: var(--family);
+  font-weight: 300;
+  background: var(--main-bg);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.dp-flex{
+    display: flex;
+}
+
+.dp-block{
+    display: block !important;
+}
+
+.dp-grid{
+    display: grid;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/* Sizing */
+.w-400{
+    width: 400px;
+}
+
+.w-75{
+    width: 75%;
+}
+.w-100{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.width-area{
+    max-width: 368px !important;
+}
+
+.h-100{
+    height: 100vh;
+}
+
+.h-40{
+    height: 2.5rem;
+}
+
+.font-12{
+    font-size: 0.75rem;
+}
+
+.spacer{
+    height: .1rem;
+}
+
+/* Padding */
+.pd-1{
+    padding: 1rem;
+}
+
+/* Margin */
+.mb-4{
+    margin-bottom: .3rem;
+}
+
+.mb-5{
+    margin-bottom: 1.5rem;
+}
+
+.mt-5{
+    margin-top: 1rem;
+}
+
+/* grid */
+
+.grid-2-col{
+      display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+  grid-gap: 1em;
+}
+
+/* Borders */
+.radius-3{
+    border-radius: var(--radius-3);
+    -webkit-border-radius: var(--radius-3);
+    -moz-border-radius: var(--radius-3);
+    -ms-border-radius: var(--radius-3);
+    -o-border-radius: var(--radius-3);
+}
+
+/* Shadow */
+.shadow{
+    box-shadow: var(--card-shadow);
+}
+
+/* Buttons */
+.primary-btn{
+    background-color: var(--secondary-bg);
+    border: none;
+    border-radius: var(--radius-3);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.225);
+    color: white;
+    font-family: var(--family);
+    font-size: 1rem;
+    font-weight: 600;
+    height: 2.5rem;
+    transform: 1s all;
+    width: 100%;
+    -webkit-border-radius: var(--radius-3);
+    -moz-border-radius: var(--radius-3);
+    -ms-border-radius: var(--radius-3);
+    -o-border-radius: var(--radius-3);
+    -webkit-transform: 1s all;
+    -moz-transform: 1s all;
+    -ms-transform: 1s all;
+    -o-transform: 1s all;
+}
+
+.primary-btn:hover{
+    background-color: var(--main-bg);
+}
+
+/* Color */
+.gray-600{
+    color: var(--gray-600);
+}
