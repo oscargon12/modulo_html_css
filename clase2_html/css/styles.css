@@ -57,3 +57,48 @@ nav{
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
 }
+
+.card-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-size{
+    width: 300px;
+}
+
+.card-container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.text-card{
+    margin-top: 1rem;
+}
+
+.btn-order{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: white;
+    margin: 1rem 0 0 0;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.2rem 1rem;
+    transition: all ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all .5s;
+    -moz-transition: all ;
+    -ms-transition: all ;
+    -o-transition: all ;
+}
+
+.btn-order:hover{
+    background-color: #1565C0;
+}
