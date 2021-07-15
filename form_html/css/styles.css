@@ -1,0 +1,106 @@
+/* Variables */
+:root{
+    --primary: #283593;
+}
+
+.bg-image {
+    margin: 0;
+    background: #c8c8c8;
+    background: url('../img/back.jpg') fixed;
+    background-size: cover;
+  }
+
+/* normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background image */
+
+
+.bg-white{
+    background-color: white;
+}
+
+.screen-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.form-container{
+    padding: 3rem;
+    width: 20rem;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-family: 'Spartan', sans-serif;
+}
+
+/* Color título */
+.header-title{
+    color: var(--primary);
+    margin: 0 0 1.5rem 0;
+}
+
+.input-container{
+    margin: .9rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container input{
+    border: 1px solid lightgray;
+    border-radius: .2rem;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -ms-border-radius: .2rem;
+    -o-border-radius: .2rem;
+    padding: .6rem .5rem;
+    font-size: 0.7rem;
+}
+
+.checkbox-container{
+    margin: .8rem 0 0 0;
+}
+
+.input-container label,
+.checkbox-container label{
+    font-size: .8rem;
+}
+
+.btn-login-container{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-login-container button{
+    padding: .5rem .6rem;
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    border-radius: .3rem;
+    font-family: 'Spartan', sans-serif;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    width: 100%;
+}
+
+.btn-login-container button:hover{
+    background-color: #01579B;
+    padding: .6rem .7rem;
+}
