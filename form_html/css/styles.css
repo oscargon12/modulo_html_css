@@ -144,7 +144,7 @@
 }
 
 .width-area{
-    width: 540px !important;
+    width: 540px;
 }
 
 .radio-group{
@@ -155,3 +155,24 @@
 .radio-option{
     margin: 0 1rem 0 0;
 }
+
+@media (max-width: 600px) {
+
+    .form-container2{
+        margin: 0 auto;
+        padding: 1rem;
+        width: 90%;
+    }
+    .form-group {
+      display: block;
+    }
+
+    .input-container{
+        margin: 1rem .2rem !important;
+    }
+
+    .width-area{
+        width: 90%;
+    }
+    
+  }
