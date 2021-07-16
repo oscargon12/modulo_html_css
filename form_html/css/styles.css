@@ -1,6 +1,6 @@
 /* Variables */
 :root{
-    --primary: #283593;
+    --primary: #4527A0;
 }
 
 .bg-image {
@@ -43,6 +43,27 @@
     font-family: 'Spartan', sans-serif;
 }
 
+.form-container2{
+    padding: 3rem;
+    width: 40rem;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-family: 'Spartan', sans-serif;
+}
+
+.form-container2 .input-container{
+    margin: 0 .2rem;
+}
+
+.form-group{
+    display: flex;
+    margin: 0 0 1.5rem 0;
+}
+
 /* Color título */
 .header-title{
     color: var(--primary);
@@ -53,6 +74,7 @@
     margin: .9rem 0;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .input-container input{
@@ -71,8 +93,10 @@
 }
 
 .input-container label,
-.checkbox-container label{
-    font-size: .8rem;
+.checkbox-container label,
+.radio-label{
+    font-size: .7rem;
+    font-weight: 500;
 }
 
 .btn-login-container{
@@ -103,4 +127,31 @@
 .btn-login-container button:hover{
     background-color: #01579B;
     padding: .6rem .7rem;
+}
+
+.register-link{
+    display: inline-flex;
+    font-size: .75rem;
+    font-weight: 600;
+    margin: 1.3rem 0 0 0;
+}
+
+.register-link a{
+    color: var(--primary);
+    font-size: .8rem;
+    margin: 0 0 .1rem .3rem;
+    text-decoration: none;
+}
+
+.width-area{
+    width: 540px !important;
+}
+
+.radio-group{
+    display: inline-flex;
+    margin: .3rem 0 1rem;
+}
+
+.radio-option{
+    margin: 0 1rem 0 0;
 }
